@@ -8,7 +8,7 @@ This documentation is based on endpoints found while inspecting the SRL pages. T
 
 Returns the list of livestreams displayed on the home page.
 
-```json
+```jsonc
 {
     "data": [
         {
@@ -42,7 +42,7 @@ Returns a paginated list of active races.
 
 #### Sample Output
 
-```json
+```jsonc
 {
     "data": [
         {
@@ -122,7 +122,7 @@ Returns a paginated list of games.
 
 #### Sample Output
 
-```json
+```jsonc
 {
     "data": [
         {
@@ -149,7 +149,7 @@ Returns the overall SRL race statistics.
 
 #### Sample Output
 
-```json
+```jsonc
 {
     "data":{
         "totalRaces":286503,
@@ -169,7 +169,7 @@ Returns the monthly race statistics.
 
 #### Sample Output
 
-```json
+```jsonc
 {
     "data":[
         {
@@ -210,7 +210,7 @@ Returns a paginated list of race stats grouped by user.
 
 #### Sample Output
 
-```json
+```jsonc
 {
     "data":[
         {
@@ -243,7 +243,7 @@ Returns the race stats of the specified user.
 
 #### Sample Output
 
-```json
+```jsonc
 {
     "data": {
         "playerId":19075,
@@ -277,7 +277,7 @@ Returns the race stats of the specified user in the specified game.
 
 #### Sample Output
 
-```json
+```jsonc
 {
     "data":{
         "playerId":19075,
@@ -301,7 +301,7 @@ Returns the top races of the specified game.
 
 #### Sample Output
 
-```json
+```jsonc
 {
     "data": [
         {
@@ -338,7 +338,7 @@ Returns a paginated list of SRL players
 
 #### Sample Output
 
-```json
+```jsonc
 {
     "data": [
         {
@@ -367,7 +367,7 @@ Returns the info of the specified user.
 
 #### Sample Output
 
-```json
+```jsonc
 {
     "data":{
         "playerId":19075,
@@ -401,7 +401,7 @@ Returns the info of the specified user.
 
 #### Sample Output
 
-```json
+```jsonc
 {
     "data":[
         {
@@ -445,7 +445,7 @@ Returns the list of countries available on SRL.
 
 #### Sample Output
 
-```json
+```jsonc
 {
     "data": [
         {
@@ -468,7 +468,7 @@ Authenticates a user, returns a cookie called `auth_cookie` used for privileged 
 
 #### Payload
 
-```json
+```jsonc
 {
     "username": "",
     "password": ""
@@ -485,7 +485,7 @@ Returns the profile information of the currently authenticated user.
 
 #### Sample Output
 
-```json
+```jsonc
 {
     "data":{
         "playerName":"psychonauter",
@@ -505,7 +505,7 @@ Updates the profile information of the currently authenticated user.
 
 #### Payload
 
-```json
+```jsonc
 {
     "playerName":"psychonauter",
     "twitch":"psychonauter",
