@@ -2,9 +2,6 @@
 
 This documentation is based on endpoints found while inspecting the SRL pages. This page only covers API endpoints from the new API (since the one at api.speedrunslive.com might be shut down soonish). The new API base is available at https://speedrunslive.com/api.
 
-* TOC
-{:toc}
-
 ## Live Streams
 
 ### GET /api/livestreams
